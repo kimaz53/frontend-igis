@@ -7,6 +7,17 @@
   min-height: 100vh;
 }
 
+.flexContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.formContainer {
+  flex: 1;
+  padding: 10px;
+}
+
 .description {
   display: inherit;
   justify-content: inherit;
